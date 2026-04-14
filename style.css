@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.285);
+  
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-items: center; */
+  
+}
+
+.outer-box {
+  border: 2px white solid;
+  width: 300px;
+  /* height :- it will increase a/c to length */
+  border-radius: 10px;
+  /* display: flex; */
+  align-items: center;
+  padding: 2px;
+  background-color: hsla(0, 0%, 0%, 0.731);
+  box-shadow: 0px 15px 35px rgb(0, 0, 0);
+  
+}
+
+.screen {
+  border: 2px solid white;
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.925);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:right;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  width: 55px;
+  height: 40px;
+  /* margin-top: 0px; */
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 0, 0.683);
+  font-weight: bolder;
+  box-shadow: 1px 1px 5px rgba(255, 19, 239, 0.932);
+  
+}
